@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       {/* left section */}
       <main className=" flex gap-5 ">
-        <div className=" relative z-0 w-full lg:h-[700px] overflow-hidden bg-opacity-75 bg-[url('/bg_house.png')] bg-cover ">
+        <div className=" relative z-0 w-full lg:h-[700px] overflow-hidden bg-opacity-75 bg-[url('/images/bg_house.png')] bg-cover ">
           <div className=" absolute inset-0 -z-50 h-full w-full bg-zinc-100 bg-opacity-80">
             <div className=" z-50 m-auto mt-1 block w-[95%] items-center  justify-between md:flex md:flex-row lg:w-[90%] xl:w-[1300px]">
               {/* left section */}
@@ -78,7 +78,7 @@ const Hero = () => {
               {/* Right section */}
               <div className=" flex  w-full m-0 justify-center items-end  md:justify-end">
                 <Image
-                  src="/governorsindh.png"
+                  src="/images/governorsindh.png"
                   alt="Governor Sindh"
                   height={1212}
                   width={1600}
@@ -117,21 +117,21 @@ const Hero = () => {
       </div>
       <div className=" grid sm:grid-cols-3 grid-cols-1 mt-10 gap-5 mr-4 ml-4">
         <Image
-          src="/pic1.jpg"
+          src="/images/pic1.jpg"
           alt="pic1"
           width={1088}
           height={896}
           className="rounded-lg shadow-2xl shadow-black h-[300px] w-full "
         ></Image>
         <Image
-          src="/pic2.jpg"
+          src="/images/pic2.jpg"
           alt="pic2"
           width={500}
           height={375}
           className="rounded-lg shadow-2xl shadow-black h-[300px] w-full "
         ></Image>
         <Image
-          src="/pic3.jpg"
+          src="/images/pic3.jpg"
           alt="pic2"
           width={500}
           height={375}
@@ -140,42 +140,42 @@ const Hero = () => {
       </div>
       <div className="grid sm:grid-cols-2 grid-cols-1 mt-10 gap-5 mr-4 ml-4">
         <Image
-          src="/img1.jpg"
+          src="/images/img1.jpg"
           alt="slideshow1"
           width={1080}
           height={608}
           className="rounded-lg w-full h-[300px] md:h-[600px]"
         ></Image>
         <Image
-          src="/img2.jpg"
+          src="/images/img2.jpg"
           alt="slideshow2"
           width={1156}
           height={521}
           className="rounded-lg w-full  h-[300px] md:h-[500px]"
         ></Image>
         <Image
-          src="/img3.jpg"
+          src="/images/img3.jpg"
           alt="slideshow3"
           width={960}
           height={906}
           className="rounded-lg w-full h-[300px] md:h-[600px]"
         ></Image>
         <Image
-          src="/img4.jpg"
+          src="/images/img4.jpg"
           alt="slideshow4"
           width={1600}
           height={900}
           className="rounded-lg w-full  h-[300px] md:h-[600px]"
         ></Image>
         <Image
-          src="/img5.jpg"
+          src="/images/img5.jpg"
           alt="slideshow5"
           width={1600}
           height={1068}
           className="rounded-lg w-full  h-[300px] md:h-[700px]"
         ></Image>
         <Image
-          src="/img6.jpg"
+          src="/images/img6.jpg"
           alt="slideshow6"
           width={1280}
           height={809}
@@ -198,7 +198,7 @@ const Hero = () => {
         <div className="overflow-hidden h-fit box_shadow shadow-xl rounded-lg justify-center  items-center text-center text-zinc-600 text-lg font-bold hover:scale-105 duration-200 transition-all ">
           <div>
             <Image
-              src="/pf1.jpg"
+              src="/images/pf1.jpg"
               alt="programming fundamentals"
               width={450}
               height={300}
@@ -214,7 +214,7 @@ const Hero = () => {
         <div className=" overflow-hidden h-fit  box_shadow shadow-xl rounded-lg  justify-center items-center text-center text-zinc-600 text-lg font-bold hover:scale-105 duration-200 transition-all">
           <div>
             <Image
-              src="/wu2.jpg"
+              src="/images/wu2.jpg"
               alt="web2 using Nextjs"
               width={450}
               height={300}
@@ -230,7 +230,7 @@ const Hero = () => {
         <div className=" overflow-hidden h-fit box_shadow shadow-xl rounded-lg  justify-center items-center text-center text-zinc-600 text-lg font-bold hover:scale-105 duration-200 transition-all">
           <div>
             <Image
-              src="/eayl3.jpg"
+              src="/images/eayl3.jpg"
               alt="Earn as you learn"
               width={450}
               height={300}
@@ -256,7 +256,7 @@ const Hero = () => {
         <div className="overflow-hidden rounded-lg box_shadow shadow-xl flex flex-col justify-center item-center hover:scale-105 duration-200 transition-all h-fit font-bold text-lg text-zinc-600 ">
           <div>
             <Image
-              src="/AI.jpg"
+              src="/images/AI.jpg"
               alt="Artificial Intelligence"
               height={300}
               width={450}
@@ -271,7 +271,7 @@ const Hero = () => {
         <div className="overflow-hidden rounded-lg box_shadow shadow-xl flex flex-col justify-center item-center hover:scale-105 duration-200 transition-all h-fit font-bold text-lg text-zinc-600">
           <div>
             <Image
-              src="/metaverse.jpg"
+              src="/images/metaverse.jpg"
               alt="Web 3 and metaverse"
               height={300}
               width={450}
@@ -286,7 +286,7 @@ const Hero = () => {
         <div className="overflow-hidden rounded-lg box_shadow shadow-xl flex flex-col justify-center item-center hover:scale-105 duration-200 transition-all h-fit font-bold text-lg text-zinc-600">
           <div>
             <Image
-              src="/cloudComputing.jpg"
+              src="/images/cloudComputing.jpg"
               alt="Cloud Computing"
               height={300}
               width={450}
@@ -301,7 +301,7 @@ const Hero = () => {
         <div className="overflow-hidden rounded-lg box_shadow shadow-xl flex flex-col justify-center item-center hover:scale-105 duration-200 transition-all h-fit font-bold text-lg text-zinc-600">
           <div>
             <Image
-              src="/iot.jpg"
+              src="/images/iot.jpg"
               alt="Ambient Computing and IoT"
               height={300}
               width={450}
@@ -316,7 +316,7 @@ const Hero = () => {
         <div className="overflow-hidden rounded-lg box_shadow shadow-xl flex flex-col justify-center item-center hover:scale-105 duration-200 transition-all h-fit font-bold text-lg text-zinc-600">
           <div>
             <Image
-              src="/genomics.jpg"
+              src="/images/genomics.jpg"
               alt="Cloud Computing"
               height={300}
               width={450}
@@ -331,7 +331,7 @@ const Hero = () => {
         <div className="overflow-hidden rounded-lg box_shadow shadow-xl flex flex-col justify-center item-center hover:scale-105 duration-200 transition-all h-fit font-bold text-lg text-zinc-600">
           <div>
             <Image
-              src="/automation.jpg"
+              src="/images/automation.jpg"
               alt="Network Programmability and Automation"
               height={300}
               width={450}
