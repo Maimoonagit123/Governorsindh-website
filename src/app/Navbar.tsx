@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className= 'flex bg-[#044e83] h-16 w-full items-center justify-between md:h-20 lg:w-[100%] xl:w-[full] fixed z-30  '>
       <div> <a href="/"> 
           <Image
-            src="/logo.png"
+            src="/images/image.png"
             alt="Governor logo"
             height={115}
             width={90}
